@@ -1,1 +1,10 @@
-/* Add CSS Styling */
+/* Added 2 classes together with the same attributes, as they don't have any unique attributes in their classes. no reason to separate*/
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
