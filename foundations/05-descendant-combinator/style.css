@@ -1,0 +1,9 @@
+/** Only the `p` elements that are descendants of the `div` element should have a yellow background, red text, a font size of 20px, and center aligned.*/
+/*the class selector would be container due to being in div, p elements only as if we don't include this it will highlight all other elements that are in the container class
+and lastly the text class. if there were any different classes within the div container class that would also be included. */
+.container p.text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

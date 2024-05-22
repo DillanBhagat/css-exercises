@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!--within the div, anything that is nested from the div class with be effected the class in this example line 13 is effected -->
     <div class="container">
       <p class="text">This should be styled.</p>
     </div>
+    <!--the below is not effected as not part of the class-->
     <p class="text">This should be unstyled.</p>
     <p class="text">This should be unstyled.</p>
+    <!--this is effected due to having the same class "container"-->
     <div class="container">
       <p class="text">This should be styled.</p>
       <p class="text">This should be styled.</p>
