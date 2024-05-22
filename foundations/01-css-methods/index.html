@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
     <link rel="stylesheet" href="styles.css"> <!--linking the css file to html with relationship attribute with specifies the relationship between the 2 files-->
+    <!--the below section is for the internal css it's placed in the head section with <style> (a green background, white text, and a font size of 18px)-->
+    <style>
+    p {
+      color: white;
+      background-color: green;
+      font-size: 18px;
+    }
+    </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div>Style me via the external method!</div> <!--external style that used .css file to style the text-->
+    <p>I would like to be styled with the internal method, please.</p> <!--using <style> above this will be used for this line-->
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button> <!--an orange background and a font size of 18px, the style needs to be added in the first tag-->
   </body>
 </html>
